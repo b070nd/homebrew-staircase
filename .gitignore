@@ -1,0 +1,14 @@
+# IDEs
+.claude/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp
+*.tmp
+*.temp
+
+# Exports
+*.tar.gz
+
