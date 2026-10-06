@@ -1,7 +1,7 @@
 class Staircase < Formula
   desc "Enforcement gate between AI agent plans and your codebase"
   homepage "https://github.com/b070nd/stAirCase"
-  version "0.9.0"
+  version "0.10.0"
   license "MIT"
   version_scheme 1 # the Go rewrite restarts at 0.x after the Bash 1.x line
 
@@ -9,23 +9,23 @@ class Staircase < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/b070nd/stAirCase/releases/download/v0.9.0/staircase_0.9.0_darwin_arm64.tar.gz"
-      sha256 "faea79029b7164dbb0ae96c72f64249933eea7ce5b16f8169155dcc0ff6cb004"
+      url "https://github.com/b070nd/stAirCase/releases/download/v0.10.0/staircase_0.10.0_darwin_arm64.tar.gz"
+      sha256 "4594b796aae28cff7f572ecac06cd8f976fb971b329385b8833470e299faa9f2"
     end
     on_intel do
-      url "https://github.com/b070nd/stAirCase/releases/download/v0.9.0/staircase_0.9.0_darwin_amd64.tar.gz"
-      sha256 "6196229148199d37c6971fd976d4b1d9c43b986c97e7f2fa31b6bf7135cbd046"
+      url "https://github.com/b070nd/stAirCase/releases/download/v0.10.0/staircase_0.10.0_darwin_amd64.tar.gz"
+      sha256 "9253eb3d3f15468a0b13f5b7a0fb7394a08cbef652686d8ebe88133b77c968d0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/b070nd/stAirCase/releases/download/v0.9.0/staircase_0.9.0_linux_arm64.tar.gz"
-      sha256 "0201fde6029f9dac539751751e2a2fcc7f2a7f7c3386c25d72410809d10bfc19"
+      url "https://github.com/b070nd/stAirCase/releases/download/v0.10.0/staircase_0.10.0_linux_arm64.tar.gz"
+      sha256 "701457f2132a8e7ddb836acf69ce273f836c9a4f9366768e8014c5711030f005"
     end
     on_intel do
-      url "https://github.com/b070nd/stAirCase/releases/download/v0.9.0/staircase_0.9.0_linux_amd64.tar.gz"
-      sha256 "e157b5727b3a910403f01238e66b93bbae160a268b3d3144ee56c2df78c61159"
+      url "https://github.com/b070nd/stAirCase/releases/download/v0.10.0/staircase_0.10.0_linux_amd64.tar.gz"
+      sha256 "2e48214d22deb7a297ac0a2afdfee98d7b6b7b863943e64c94dc233318c9a962"
     end
   end
 
