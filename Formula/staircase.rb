@@ -1,9 +1,8 @@
 class Staircase < Formula
   desc "Enforcement gate between AI agent plans and your codebase"
   homepage "https://github.com/b070nd/stAirCase"
-  version "1.0.0"
   license "MIT"
-  version_scheme 1 # the Go rewrite restarts at 0.x after the Bash 1.x line
+  version_scheme 1 # orders the Go releases after the earlier Bash 1.x line
 
   depends_on "git"
 
