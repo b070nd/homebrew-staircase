@@ -8,23 +8,23 @@ class Staircase < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/b070nd/stAirCase/releases/download/v1.0.0/staircase_1.0.0_darwin_arm64.tar.gz"
-      sha256 "16f3fc448908cff81d8feab3d61fb452a958f8a42124d73f45341f07414dba3c"
+      url "https://github.com/b070nd/stAirCase/releases/download/v1.0.1/staircase_1.0.1_darwin_arm64.tar.gz"
+      sha256 "061bd8e0c37890748cb46f445337cfaa968c92553ba2b28e2c36ca432d7aa811"
     end
     on_intel do
-      url "https://github.com/b070nd/stAirCase/releases/download/v1.0.0/staircase_1.0.0_darwin_amd64.tar.gz"
-      sha256 "8739dcb0c0495a0c19dd9e401ff4ac821863c95001ada4820e4b37c3d37f2f77"
+      url "https://github.com/b070nd/stAirCase/releases/download/v1.0.1/staircase_1.0.1_darwin_amd64.tar.gz"
+      sha256 "329f9543645667b02eec400dae0a87eba7c17c75cae6f5ac308d95fbaf71c2cf"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/b070nd/stAirCase/releases/download/v1.0.0/staircase_1.0.0_linux_arm64.tar.gz"
-      sha256 "f90f4e7dd05e1d0e010cf013886c31ee2e9a45c23153d767907a1f36b7ed8e9e"
+      url "https://github.com/b070nd/stAirCase/releases/download/v1.0.1/staircase_1.0.1_linux_arm64.tar.gz"
+      sha256 "7281b9bc5d6c96c038667e815fb1b80381d347fff36888df9808ea6b89a3811d"
     end
     on_intel do
-      url "https://github.com/b070nd/stAirCase/releases/download/v1.0.0/staircase_1.0.0_linux_amd64.tar.gz"
-      sha256 "c1a756a365ae8e648e781e8afd6461cbbccf317288335ab38897ed3a21fd9c87"
+      url "https://github.com/b070nd/stAirCase/releases/download/v1.0.1/staircase_1.0.1_linux_amd64.tar.gz"
+      sha256 "65a90fa5159e50aa006bba1ab236c0d6812cdb8ef4f5a5699eec9087f1c92e91"
     end
   end
 
